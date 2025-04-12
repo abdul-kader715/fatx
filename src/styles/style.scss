@@ -1,0 +1,63 @@
+/*
+    @version         : 1.0.0
+    @Template Name   : React Template
+*/
+
+/*--------------------------------------------------------------
+css table of contents
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+
+3. sections
+	3.1 HeroSection
+	3.2 FunfactSection
+	3.3 BannerSection
+	3.4 ServicesSection 
+	3.5 AnswerSection
+	3.6 ProjectSection
+	3.7 WorkSection
+	3.8 TestimonialSection
+	3.9 TeamSection
+	3.10 FaqSection
+	3.11 ContsctSection
+
+4. FooterSection
+
+
+
+
+
+----------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+
+// base
+@import "base/basic";
+
+
+// components
+@import "components/top-title";
+@import "components/buttons";
+@import "components/form";
+
+// layout
+@import "layout/header";
+@import "layout/hero";
+@import "layout/footer";
+
+// components
+
+
+// page
+@import "page/home-main";

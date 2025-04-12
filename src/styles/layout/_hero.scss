@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+3. sections
+--------------------------------------------------------------*/
+//3.1 HeroSection
+.HeroSection {
+
+
+    .wraper {
+        max-width: 850px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 50px 0;
+
+        h2 {
+            color: #FFF;
+            font-size: 70px;
+            font-weight: 800;
+            letter-spacing: 0.91px;
+            @media (max-width:991px) {
+                font-size: 50px;
+            }
+            @media (max-width:575px) {
+                font-size: 40px;
+            }
+            span {
+                color: transparent;
+                -webkit-text-stroke: 1px white;
+            }
+        }
+
+        p {
+            color:  #939FA3;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.192px;
+            max-width: 778px;
+            margin: 0 auto;
+        }
+    }
+}

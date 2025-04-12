@@ -1,0 +1,94 @@
+.btn_primary {
+  display: inline-block;
+  position: relative;
+  width: 180px;
+  height: 44px;
+  padding: 10px 40px;
+  gap: 10px;
+  border-radius: 4px;
+  background: transparent;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  overflow: hidden;
+  z-index: 1;
+  transition: .3s ease-in-out;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FF693B;
+    transition: .3s ease-in-out;
+  }
+
+
+
+  &:hover {
+    color: $white;
+
+    &::before {
+      background: #f06237;
+    }
+  }
+
+  @media (max-width:767px) {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+#button {
+  display: inline-block;
+  background-color: $template-color;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 100px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button::after {
+  content: "\e627";
+  font-family: themify;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 50px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: $template-color;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
