@@ -5,6 +5,7 @@ import HeroSection from "../../components/HeroSection/index.jsx"
 import TimeSection from "../../components/TimeSection/index.jsx"
 import TicketForm from "../../components/TicketForm/index.jsx"
 import FAQSection from "../../components/FAQSection/index.jsx"
+import TokenmicsSection from "../../components/TokenmicsSection/index.jsx"
 import Form from "../../components/Form/index.jsx"
 import PartnerSection from "../../components/PartnerSection/index.jsx"
 
@@ -27,6 +28,7 @@ function HomePage() {
                     <img src={Shades2} alt="" />
                 </div>
             </div>
+            <TokenmicsSection/>
             <FAQSection/>
             <Form />
             <PartnerSection/>

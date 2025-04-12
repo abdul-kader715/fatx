@@ -598,6 +598,161 @@ img {
   }
 }
 
+.TokenmicsSection {
+  background: #171A1B;
+  padding-top: 177px;
+}
+@media (max-width: 991px) {
+  .TokenmicsSection {
+    padding-top: 70px;
+  }
+}
+.TokenmicsSection .title h2 {
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 0.65px;
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .TokenmicsSection .title h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .TokenmicsSection .title h2 {
+    font-size: 30px;
+  }
+}
+.TokenmicsSection .title span {
+  color: #939FA3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.192px;
+}
+.TokenmicsSection .btn-a {
+  text-align: end;
+}
+@media (max-width: 991px) {
+  .TokenmicsSection .btn-a {
+    text-align: left;
+    margin-top: 20px;
+  }
+}
+.TokenmicsSection .btn-a a {
+  padding: 17px 30px;
+  gap: 10px;
+  border-radius: 13px;
+  width: 190px;
+  height: 60px;
+  padding: 17px 30px;
+  background: url(../images/Btn2.png) center/cover no-repeat;
+  color: var(--White, #FFF);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.192px;
+  display: inline-block;
+}
+@media (max-width: 991px) {
+  .TokenmicsSection .Tokenmics-right {
+    margin-top: 30px;
+    overflow: hidden;
+  }
+}
+.TokenmicsSection .Tokenmics-right h2 {
+  color: #FFF;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.312px;
+}
+.TokenmicsSection .Tokenmics-right p {
+  color: var(--Paragraph, #939FA3);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.168px;
+}
+.TokenmicsSection .Tokenmics-right span {
+  color: var(--Paragraph, #939FA3);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.168px;
+  display: block;
+}
+@media (max-width: 767px) {
+  .TokenmicsSection .Tokenmics-right span {
+    display: inline-block;
+  }
+}
+.TokenmicsSection .Tokenmics-right span strong {
+  color: var(--White, #FFF);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.168px;
+}
+.TokenmicsSection .content {
+  margin-top: 30px;
+  margin: 0 -15px;
+}
+.TokenmicsSection .content li {
+  display: inline-flex;
+  padding: 20px;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid var(--Stroke, #23272A);
+  margin: 15px;
+}
+.TokenmicsSection .content li .color {
+  border-radius: 7px;
+  background: conic-gradient(from 180deg at 50% 50%, #4D5CFF 0deg, #2E3799 360deg);
+  width: 37px;
+  height: 37px;
+  margin-right: 20px;
+}
+.TokenmicsSection .content li span {
+  color: #939FA3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.192px;
+  display: inline-block;
+}
+.TokenmicsSection .content li span .prsent {
+  color: #4D5CFF;
+  display: inline-block;
+  padding-right: 5px;
+}
+.TokenmicsSection .content li:nth-child(2) .color {
+  background: conic-gradient(from 180deg at 50% 50%, #C38F0F 0deg, #5D4407 360deg);
+}
+.TokenmicsSection .content li:nth-child(2) span .prsent {
+  color: #C38F0F;
+}
+.TokenmicsSection .content li:nth-child(3) .color {
+  background: conic-gradient(from 180deg at 50% 50%, #10EB52 0deg, #09852E 360deg);
+}
+.TokenmicsSection .content li:nth-child(3) span .prsent {
+  color: #10EB52;
+}
+.TokenmicsSection .content li:nth-child(4) .color {
+  background: conic-gradient(from 180deg at 50% 50%, #E94B4E 0deg, #832A2C 360deg);
+}
+.TokenmicsSection .content li:nth-child(4) span .prsent {
+  color: #E94B4E;
+}
+.TokenmicsSection .content li:last-child .color {
+  background: conic-gradient(from 180deg at 50% 50%, #7B0FC3 0deg, #3B075D 360deg);
+}
+.TokenmicsSection .content li:last-child span .prsent {
+  color: #7B0FC3;
+}
+
 .FAQSection {
   padding: 177px 0;
   background: #171A1B;
@@ -696,7 +851,7 @@ img {
   width: 150px;
   height: 60px;
   padding: 17px 30px;
-  background: url(/src/images/Btn2.png);
+  background: url(../images/Btn2.png);
 }
 .TicketFormS2 .wraper {
   position: relative;
